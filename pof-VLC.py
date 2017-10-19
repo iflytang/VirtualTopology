@@ -56,7 +56,7 @@ if __name__ == '__main__':
     net.staticArp()
     print "Dumping host connections ..."
 
-    #dumpNodeConnections(net.hosts)
+    dumpNodeConnections(net.hosts)
     dumpNodeConnections(net.switches)
     CLI(net)
     net.stop()
